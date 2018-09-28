@@ -1,5 +1,12 @@
 # static
 Host static files using Node.js
+## Quickstart
+```bash
+> git clone https://github.com/voze/static
+> cd static
+> npm install
+> npm run start
+```
 ## Environment variables
 ```PORT=3000```
 
