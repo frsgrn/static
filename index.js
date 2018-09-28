@@ -11,4 +11,4 @@ const app = express()
 app.use(cors())
 app.use(express.static(dir))
 
-app.listen(port)
+app.listen(port, () => {console.log(`Serving files on ${port} in folder ${dir}`)})
